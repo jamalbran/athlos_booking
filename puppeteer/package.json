@@ -1,0 +1,30 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "module",
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "@types/aws-lambda": "^8.10.141",
+    "@types/node": "^20.14.10",
+    "@types/puppeteer": "^7.0.4",
+    "http": "^0.0.1-security",
+    "puppeteer-core": "^18.0.5",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "typescript": "^5.5.3",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "puppeteer": "^22.13.0"
+  }
+}

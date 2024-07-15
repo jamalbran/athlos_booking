@@ -5,9 +5,14 @@ Scraper service for get Hotel information from [Booking](https://booking.com)
 ## Installation
 
 ```bash
-# Build and Run Docker container
+# Build and Run Docker container locally:
+$ cd puppeteer
+$ npm install
+$ npm run uild
+$ cd ..
 $ docker-compose up --build
-
+```
+```bash
 # Run Test
 $ cd athlos_hotel_api
 $ npm test
@@ -15,7 +20,7 @@ $ npm test
 
 ## Documentation
 
-Docker Container running needed:
+Docker Container running locally needed:
 [Swagger Doc](http://localhost:3000/api/docs#/)
 
 ## Next Steps

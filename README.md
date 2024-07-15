@@ -8,7 +8,7 @@ Scraper service for get Hotel information from [Booking](https://booking.com)
 # Build and Run Docker container locally:
 $ cd puppeteer
 $ npm install
-$ npm run uild
+$ npm run build
 $ cd ..
 $ docker-compose up --build
 ```
